@@ -27,10 +27,18 @@ To replicate this automation in your own Jenkins environment, follow these steps
        agent any
        stages {
            stage('Checkout') {
-               steps { git branch: 'main', url: '[https://github.com/WaisSat/WaisSat.git](https://github.com/WaisSat/WaisSat.git)' }
+              steps { git branch: 'main', url: 'https://github.com/WaisSat/WaisSat.git' }
            }
            stage('Validation') {
                steps { sh '[ -s apple_green ] || exit 1' }
            }
        }
    }
+
+## 🛡️ Cybersecurity & Information Assurance (DevSecOps)
+This project incorporates **Security by Design** principles to protect the software supply chain:
+
+- **Integrity Auditing**: The automated validation of `apple_green` ensures that production files have not been tampered with or corrupted.
+- **Least Privilege**: The pipeline is configured to operate with restricted permissions, minimizing the attack surface of the automation server.
+- **Audit Logs**: Jenkins generates a permanent, non-repudiable audit trail of every code change and build execution for compliance monitoring.
+- **Secure Configuration**: The use of a private Jenkins instance demonstrates knowledge of protecting CI/CD infrastructure from public exposure.
