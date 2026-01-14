@@ -1,5 +1,5 @@
 # 🚀 Project WaisSat
-![Build Status](https://img.shields.io/badge/Jenkins-Build_Passing-success?style=flat-square&logo=jenkins)
+![Build Status](https://img.shields.io/badge/Jenkins-Build_Passing-success?style=flat-square&logo=jenkins) ![Security Audit](https://img.shields.io/badge/Security-Audited-blue?style=flat-square&logo=shield)
 
 ### 🛠️ Continuous Integration (CI)
 This repository is monitored by a private Jenkins Pipeline. Every commit to the `main` branch triggers an automated:
