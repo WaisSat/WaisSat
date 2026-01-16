@@ -1,4 +1,5 @@
-
+![Build Status](https://img.shields.io/badge/Jenkins-Build_Passing-success?style=flat-square&logo=jenkins)
+![Security Audit](https://img.shields.io/badge/Security-Audit_Verified-blue?style=flat-square&logo=shield)
 # 👋 Hi, I'm Wais!
 
 ### 🚀 DevSecOps & Automation Engineer
