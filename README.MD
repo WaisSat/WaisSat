@@ -1,3 +1,4 @@
+
 # 👋 Hi, I'm Wais!
 
 ### 🚀 DevSecOps & Automation Engineer
@@ -6,6 +7,9 @@ I specialize in building secure **CI/CD pipelines** and managing **Infrastructur
 * 🛠️ **Core Stack:** Ansible, Terraform, Jenkins, Bash/Shell, Linux.
 * 🛡️ **Focus:** Security by Design & Automated Integrity Auditing.
 * 🔭 **Learning:** Kubernetes, Docker, and Python for Automation.
+
+## 🏗️ System Architecture
+![WaisSat Pipeline Architecture](architecture.png)
 
 # 🚀 Project WaisSat
 ![Build Status](https://img.shields.io/badge/Jenkins-Build_Passing-success?style=flat-square&logo=jenkins) ![Security Audit](https://img.shields.io/badge/Security-Audited-blue?style=flat-square&logo=shield)
